@@ -13,6 +13,11 @@ const products = [
     {"id": 3, "name": "Croissant", "price": 5000}
 ]
 
+//Main page
+app.get('/', (req, res) => {
+    res.send("Welcome to products API by Alejandro Parra. Go to /products.")
+})
+
 /*
  * GET route to /products
  * Returns a json of the products array
