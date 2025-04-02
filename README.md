@@ -39,7 +39,7 @@ Este examen evalúa tu capacidad para construir un backend básico usando Expres
 | **Despliegue (Obligatorio, sin puntaje)** | **Si no se despliega el repositorio, no se califica el examen.** |
 
 ## Entrega
-- Sube tu código a un **repositorio en GitHub** y despliéguelo en **vercel**.
-- Agregue el enlace del repositorio desplegado al README.
+[Main page](https://parcial-ii-parra284.vercel.app/)
+[Products](https://parcial-ii-parra284.vercel.app/products)
+[Product 1](https://parcial-ii-parra284.vercel.app/products/1)
 
-¡Buena suerte!
