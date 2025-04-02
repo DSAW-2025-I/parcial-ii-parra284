@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/CBIH3_Lj)
 # Web Development Exam - Backend with Express.js
 
 ## Overview
@@ -38,7 +39,11 @@ Este examen evalúa tu capacidad para construir un backend básico usando Expres
 | **Despliegue (Obligatorio, sin puntaje)** | **Si no se despliega el repositorio, no se califica el examen.** |
 
 ## Entrega
-- Sube tu código a un **repositorio en GitHub** y despliéguelo en **vercel**.
-- Agregue el enlace del repositorio desplegado al README.
+Alejandro Parra - 0000322607
+<br>
+[Main page](https://parcial-ii-parra284.vercel.app/)
+<br>
+[Products](https://parcial-ii-parra284.vercel.app/products)
+<br>
+[Product 1](https://parcial-ii-parra284.vercel.app/products/1)
 
-¡Buena suerte!
