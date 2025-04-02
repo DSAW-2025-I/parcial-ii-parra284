@@ -8,9 +8,21 @@ app.use(express.json());
 
 //Product array declaration
 const products = [
-    {"id": 1, "name": "Sandwich", "price": 10000},
-    {"id": 2, "name": "Hot dog", "price": 7000},
-    {"id": 3, "name": "Croissant", "price": 5000}
+    {
+        id: 1,
+        name: "Sandwich",
+        price: 1000
+    },
+    {
+        id: 2,
+        name: "Hot dog",
+        price: 7000
+    },
+    {
+        id: 3,
+        name: "Croissant",
+        price: 5000
+    }
 ]
 
 //Main page
@@ -40,6 +52,7 @@ app.get('/products/:id', (req, res) => {
 
     const product = products.find(p => p.id == id);
 
+    //Shows error 404 if the product id is not found
     if (!product) {
         return res.status(404).json({ error: 'Product not found.' });
     }
@@ -59,6 +72,7 @@ app.post('/products', (req, res) => {
         return res.status(400).json({error: 'ID must be a postive number.'});
     }
 
+    //Shows error 400 if it tries to create a product with an existant id
     if (products.find(p => p.id == id)) {
         return res.status(400).json({error: `Product with id ${id} already exists.`});
     }
@@ -75,7 +89,7 @@ app.post('/products', (req, res) => {
 
     products.push(newProduct)
 
-    res.status(201).json({ message: 'Prodcut created successfully', product: newProduct });
+    res.status(201).json({ message: 'Product created successfully', product: newProduct });
 })
 
 //Server starts to listen through port 3000
